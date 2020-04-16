@@ -88,7 +88,7 @@ Berikut adalah langkah untuk menjalankan aplikasi rest API
 
 4. \$sequelize db:migrate
 
-   migrasi semua file figrations
+   Untuk migrasi semua file yang ada di folder migrations
 
 5. buat file .env yang berisi varibel sesuai dengn yang ada di envTemplate. Berikut contohnya
 
@@ -100,6 +100,17 @@ Berikut adalah langkah untuk menjalankan aplikasi rest API
 6. \$npm run dev
 
    running programnya pada directory backend-section. applikasi akan dijalankan pada port yang diisi pada file .env
+
+   setelah menjalankan perintah npm run dev pada terminal, anda akan melihat respon di terminal sebagai berikut yang menandakan aplikasi telah berjalan
+
+   ```
+   [nodemon] 2.0.2
+   [nodemon] to restart at any time, enter `rs`
+   [nodemon] watching dir(s): *.*
+   [nodemon] watching extensions: js,mjs,json
+   [nodemon] starting `node ./bin/http.js`
+   listening to port  3000
+   ```
 
 untuk endpoint resAPI (resAPI doc) dapat dilihat dibawah
 
