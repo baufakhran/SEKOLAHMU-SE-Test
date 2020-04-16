@@ -70,11 +70,13 @@ class UserController {
 
   static deleteUser(req, res, next) {
     let id = +req.params.id
+    let msg = 'success delete user'
     User.destroy({
       where: { id },
     })
       .then((result) => {
-        res.status(200).json({ result, msg: 'success delete user' })
+        if (!result) msg = 'failed delete user, user not found'
+        res.status(200).json({ result, msg })
       })
       .catch((err) => {
         next(err)
@@ -96,13 +98,13 @@ class UserController {
           } else {
             next({
               msg: 'change password failed',
-              errors: 'invalid email or password',
+              errors: 'old password wrong',
             })
           }
         } else {
           next({
             msg: 'change password failed',
-            errors: 'invalid email or password',
+            errors: 'old password wrong',
           })
         }
       })
