@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category_name": "UJIANMU",
+      "name": "JAGO BIOLOGI 12",
+      "avatar": "https://www.sekolah.mu/wp-content/uploads/2019/11/Biologi-04-3.png",
+      "abstract": "Program ini akan membantumu menelusuri materi biologi kelas 12 dengan menantang sekaligus menyenangkan!",
+      "description": "\nTelusuri materi **Biologi Kelas 12 **dengan menyenangkan dan menantang! Di program ini, kamu akan belajar dengan melihat video, rumus, dan latihan soal. Kalau saat belajar ada yang kamu tidak pahami, kamu bisa langsung tanya guru di [Tanyamu](https://www.sekolah.mu/tanyamu/) (hanya di aplikasi).\n\n## Deskripsi Program\n**Mata Pelajaran Terkait** : Biologi\n**Tingkatan Kelas** : Kelas 12/SMA 3\n**Durasi** : 1 tahun\n**Jumlah Video** : 10\n**Jumlah Kuis** : 10\n\n<!--EndFragment-->\n",
+      "price_normal": "0.00",
+      "price": "0.00",
+      "status": true
+    },
+    {
+      "id": 2,
+      "category_name": "UJIANMU",
+      "name": "JAGO EKONOMI 11",
+      "avatar": "https://www.sekolah.mu/wp-content/uploads/2019/11/Ekonomi-06-1.png",
+      "abstract": "Dengan mengikuti program ini, kamu akan belajar Ekonomi dengan cara yang seru dan menantang melalui video materi, infografis, dan latihan soal serta pembahasannya.",
+      "description": "\nKuasai materi Ekonomi kelas 11 dan jadilah yang terbaik di kelasmu! Dengan mengikuti program ini, kamu akan belajar Ekonomi dengan cara yang seru dan menantang melalui video materi, infografis, dan latihan soal serta pembahasannya.\n\n## Deskripsi Program\n**Tingkatan Kelas** : Kelas 11 SMA\n**Mata Pelajaran** : Ekonomi \n**Durasi** : 6 bulan\n**Jumlah Video** : 9\n**Jumlah Kuis** : 9\n\n<!--EndFragment-->\n",
+      "price_normal": "0.00",
+      "price": "0.00",
+      "status": true
+    },
+    {
+      "id": 3,
+      "category_name": "UJIANMU",
+      "name": "JAGO FISIKA 10",
+      "avatar": "https://www.sekolah.mu/wp-content/uploads/2019/11/Fisika-02-3.png",
+      "abstract": "Telusuri materi Fisika Kelas 10 dengan menyenangkan dan menantang! Di program ini, kamu akan belajar dengan melihat video, rumus, dan latihan soal.",
+      "description": "\nTelusuri materi **Fisika Kelas 10 **dengan menyenangkan dan menantang! Di program ini, kamu akan belajar dengan melihat video, rumus, dan latihan soal. Kalau saat belajar ada yang kamu tidak pahami, kamu bisa langsung tanya guru di [Tanyamu](https: //www.sekolah.mu/tanyamu/) (hanya di aplikasi).\n\n## Deskripsi Program\n**Mata Pelajaran Terkait** : Fisika\n**Tingkatan Kelas** : Kelas 10/SMA 1\n**Durasi**: 6 bulan\n**Jumlah Video** : 10\n**Jumlah Kuis** : 10\n",
+      "price_normal": "0.00",
+      "price": "0.00",
+      "status": true
+    }
+  ]
+}

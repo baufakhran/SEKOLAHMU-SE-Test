@@ -1,6 +1,8 @@
 # SEKOLAHMU-SE-Test
 
-test coding for sekolahmu
+Folder backend-section berisi aplikasi restAPI untuk user (Menjawab soal backend no 2)
+
+Folder frontend-section berisi aplikasi web (Menjawab soal frontend no 2)
 
 ## **Jawaban Pertanyaan Backend section**
 
@@ -58,7 +60,7 @@ test coding for sekolahmu
 
    Output yang dikeluarkan dari fungsi console.log(first) adalah error karena first tidak terdefinisi di scope dimana console.log(first) berada karena deklarasi variabel let first = 1 hanya dapat diakses dalam scope lokalnya yang dalam hal ini adalah skop pengondisian/(if). Sedangkan Output yang dikeluarkan dari console.log(second) adalah 10 karena deklarasi variabel menggunakan var dapat diakses secara global.
 
-## **Petunjuk untuk menjalankan resAPI backend test**
+# **Petunjuk untuk menjalankan resAPI backend test**
 
 Aplikasi restAPI pada backend test ini dibuat menggunakan node.js dan postgreSQL sehingga untuk itu pastikan untuk menginstal node.js, nodemon,PostgreSQL, serta sequelize-cli terlebih dahulu.
 
@@ -494,3 +496,13 @@ delete user - asumption just SuperUser doit, not the user
       "msg": "failed delete user, user not found"
     }
     ```
+
+# **Menjalankan aplikasi frontend section**
+
+aplikasi web untuk front end section dibuat mengunakan framework vue.js. Adapun langkah untuk menjalankan aplikasi tersebut adalah sebagai berikut
+
+1.  Arahkan terminal pada direktori folder frontend-section.
+
+2.  Jalankan npm install pada terminal untuk mengistall semua dependecies pada packaje.json.
+
+3.  Jalankan npm run serve untuk menjalankan applikasi.
